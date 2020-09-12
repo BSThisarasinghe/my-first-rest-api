@@ -1,0 +1,24 @@
+{
+  "name": "my-first-be",
+  "version": "1.0.0",
+  "description": "My first Backend project Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Test",
+    "BE"
+  ],
+  "author": "Buwaneka Sudheera",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
